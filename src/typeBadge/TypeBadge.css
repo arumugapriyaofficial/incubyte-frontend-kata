@@ -1,0 +1,19 @@
+.type-badge {
+  display: inline-block;
+  border-radius: 99px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-family: var(--font-display);
+  line-height: 1.5;
+}
+
+.type-badge-sm {
+  padding: 3px 9px;
+  font-size: 10px;
+}
+
+.type-badge-lg {
+  padding: 5px 14px;
+  font-size: 12px;
+}

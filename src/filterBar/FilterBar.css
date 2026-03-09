@@ -1,0 +1,106 @@
+/* =============================================
+   FilterBar.css — Filter Bar Styles
+   ============================================= */
+
+/* ---------- Wrapper ---------- */
+.filter-bar {
+  margin-bottom: 32px;
+}
+
+/* ---------- Search ---------- */
+.filter-bar__search-wrap {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.filter-bar__search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.filter-bar__search-input {
+  width: 100%;
+  padding: 14px 16px 14px 44px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.filter-bar__search-input:focus {
+  border-color: var(--accent);
+}
+
+.filter-bar__search-clear {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+}
+
+/* ---------- Type Filters + Sort Row ---------- */
+.filter-bar__controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ---------- Filter Buttons ---------- */
+.filter-bar__btn {
+  padding: 6px 14px;
+  border-radius: 99px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.15s;
+}
+
+/* "All" button active state */
+.filter-bar__btn--all-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1A0A2E;
+  font-weight: 700;
+}
+
+/* ---------- Sort Select ---------- */
+.filter-bar__sort {
+  margin-left: auto;
+  padding: 6px 12px;
+  border-radius: 99px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
