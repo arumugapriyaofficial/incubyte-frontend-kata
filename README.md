@@ -6,7 +6,7 @@ Welcome to the **Pokémon Explorer**, a frontend engineering kata built with Rea
 
 ## 📸 Live Demo & Screenshots
 
-**🔗 Live Link:** [https://incubyte-hiring.github.io/incubyte-frontend-kata-arumugapriyaofficial](https://incubyte-hiring.github.io/incubyte-frontend-kata-arumugapriyaofficial)
+**🔗 Live Link:** [https://incubyte-frontend-kata.vercel.app/](https://incubyte-frontend-kata.vercel.app/)
 
 ### Screenshots
 *   *(Insert Screenshot of List View here)*
