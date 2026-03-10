@@ -4,12 +4,14 @@ Welcome to the **Pokémon Explorer**, a frontend engineering kata built with Rea
 
 ---
 
-## 📸 Live Demo & Screenshots
+## 📸 Live Demo
 
-**🔗 Live Link:** [https://incubyte-frontend-kata.vercel.app/](https://incubyte-frontend-kata.vercel.app/)
+**🔗 Live Link:** [https://incubyte-frontend-kata.vercel.app/]
 
-Screenshots:
-
+## Screenshots
+Click on the src link to view the image screenshots
+<img src="./mainScreen.png" width="500" height="500">
+<img src="./cardScreen.png" width="500" height="500">
 
 
 ---
@@ -20,8 +22,7 @@ Follow these simple steps to run the project locally.
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd incubyte-frontend
+   git clone https://github.com/arumugapriyaofficial/incubyte-frontend-kata.git
    ```
 
 2. **Install dependencies:**
