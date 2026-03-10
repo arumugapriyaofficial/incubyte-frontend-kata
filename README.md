@@ -9,7 +9,6 @@ Welcome to the **Pokémon Explorer**, a frontend engineering kata built with Rea
 **🔗 Live Link:** [https://incubyte-frontend-kata.vercel.app/]
 
 ## Screenshots
-Click on the src link to view the image screenshots
 <img src="./mainScreen.png" width="500" height="500">
 <img src="./cardScreen.png" width="500" height="500">
 
